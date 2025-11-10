@@ -51,8 +51,8 @@
       <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
     </path>
 
-    <!-- Blinking cursor -->
-    <rect x="24" y="-10" width="2.5" height="25" fill="#FBB03B">
+    <!-- Blinking cursor (after closing bracket) -->
+    <rect x="50" y="-10" width="2.5" height="25" fill="#FBB03B">
       <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
