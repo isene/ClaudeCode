@@ -1,0 +1,29 @@
+Request Fulfillment Process
+   Description
+      + Request Fulfillment (RF) handles all orders from users
+       and executes Standard Changes
+      Users may contact RF to discuss possible orders
+   Input
+      Orders from users via Service Desk
+   Output
+      Efficient delivery of orders
+   Metrics
+      Sum of time lapsed on open requests
+      Response time (target < 2 hours)
+   Owner: Service Operations Manager
+   Process
+      T: Receive Service Request from User via Service Desk
+      [? Not valid according to SLA]
+         Escalate to <Demand Management>; SKIP
+      T: Take ticket
+      T: Ensure all needs are documented
+      T: Give time estimate to User
+      [? Standard Change (SC)] T: Apply Standard Change
+      [? RfC not needed] T: Effectuate request
+         [? Request is not an SC] <Notification>
+      T: Create RfC
+      T: Send RfC to <Change Management>
+      T: Receive communication about the RfC
+         T: Forward information to User
+      Notification
+         T: Give final notification of result to User
