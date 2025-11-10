@@ -11,22 +11,28 @@
   <rect x="0" y="0" width="150" height="150" fill="#1a1a1a" rx="8"/>
 
   <!-- Terminal window frame -->
-  <rect x="10" y="10" width="130" height="130" fill="none" stroke="url(#gradient)" stroke-width="2" rx="6"/>
+  <rect x="8" y="8" width="134" height="134" fill="none" stroke="url(#gradient)" stroke-width="2.5" rx="6"/>
 
   <!-- Terminal dots -->
-  <circle cx="20" cy="20" r="3" fill="#FF5F56"/>
-  <circle cx="30" cy="20" r="3" fill="#FFBD2E"/>
-  <circle cx="40" cy="20" r="3" fill="#27C93F"/>
+  <circle cx="18" cy="18" r="2.5" fill="#FF5F56"/>
+  <circle cx="28" cy="18" r="2.5" fill="#FFBD2E"/>
+  <circle cx="38" cy="18" r="2.5" fill="#27C93F"/>
 
-  <!-- Code brackets -->
-  <g transform="translate(35, 50)" opacity="0.9">
-    <path d="M 10 10 L 0 25 L 10 40" stroke="url(#gradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <path d="M 30 10 L 40 25 L 30 40" stroke="url(#gradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Code symbol < > with C -->
+  <g transform="translate(75, 75)">
+    <!-- Left bracket -->
+    <path d="M -35 -20 L -45 0 L -35 20" stroke="url(#gradient)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Letter C -->
+    <text x="0" y="10" font-family="'Monaco', 'Courier New', monospace" font-size="42" font-weight="bold" fill="url(#gradient)" text-anchor="middle">C</text>
+
+    <!-- Right bracket -->
+    <path d="M 35 -20 L 45 0 L 35 20" stroke="url(#gradient)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Blinking cursor -->
+    <rect x="24" y="-10" width="2.5" height="25" fill="#FBB03B" opacity="0.9"/>
   </g>
 
-  <!-- Letter C -->
-  <text x="75" y="85" font-family="'Monaco', 'Courier New', monospace" font-size="48" font-weight="bold" fill="url(#gradient)" text-anchor="middle">C</text>
-
-  <!-- Cursor -->
-  <rect x="100" y="70" width="3" height="20" fill="url(#gradient)"/>
+  <!-- Small "code" text at bottom -->
+  <text x="75" y="130" font-family="'Monaco', 'Courier New', monospace" font-size="10" fill="#888" text-anchor="middle" letter-spacing="1">claude code</text>
 </svg>
