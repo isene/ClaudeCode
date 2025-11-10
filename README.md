@@ -1,7 +1,7 @@
 # ClaudeCode
 
 <p align="center">
-  <img src="logo.svg" alt="ClaudeCode Logo" width="500">
+  <img src="https://raw.githubusercontent.com/isene/ClaudeCode/main/logo.svg" alt="ClaudeCode Logo" width="500">
 </p>
 
 <p align="center">
