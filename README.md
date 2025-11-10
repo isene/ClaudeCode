@@ -1,18 +1,11 @@
 # ClaudeCode
 
-<img src="logo.svg" align="center" width="500">
-
-<p align="center">
-  <em>Custom skills and configurations for Claude Code CLI</em>
-</p>
-
----
-
-## Overview
-
-This repository contains curated custom skills, hooks, and configuration examples for [Claude Code](https://claude.com/claude-code) - Anthropic's official CLI for Claude.
+<img src="logo.svg" align="left" width="150" height="150"> Custom skills and configurations for [Claude Code](https://claude.com/claude-code) - Anthropic's official CLI for Claude.
 
 Skills extend Claude's capabilities with specialized knowledge, workflows, and domain expertise. Each skill provides context and instructions that activate automatically based on user needs.
+<br clear="left"/>
+
+---
 
 ## Included Skills
 
