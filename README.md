@@ -1,8 +1,6 @@
 # ClaudeCode
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/isene/ClaudeCode/main/logo.svg" alt="ClaudeCode Logo" width="500">
-</p>
+<img src="logo.svg" align="center" width="500">
 
 <p align="center">
   <em>Custom skills and configurations for Claude Code CLI</em>
