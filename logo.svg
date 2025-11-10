@@ -52,7 +52,7 @@
     </path>
 
     <!-- Blinking cursor (after closing bracket) -->
-    <rect x="50" y="-10" width="2.5" height="25" fill="#FBB03B">
+    <rect x="54" y="-10" width="2.5" height="25" fill="#FBB03B">
       <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
